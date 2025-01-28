@@ -23,16 +23,15 @@ let n6 = 2.7;
 let n7 = 16;
 let b1 = true;
 let b2 = false;
-// console.log(s1, s2, s3, s4);
-// console.log(n1, n2, n3, n4, PI, n6, n7);
-// console.log(b1, b2)
+console.log(s1, s2, s3, s4);
+console.log(n1, n2, n3, n4, PI, n6, n7);
+console.log(b1, b2)
 
 let firstName = 'Andriy';
 let middleName = 'Igorovich';
 let lastName = 'Movchko';
-let age = 20;
 let person = `${lastName} ${firstName} ${middleName} `;
-// console.log(person);
+console.log(person);
 
 let a = 100;
 let b = '100';
@@ -42,9 +41,9 @@ console.log(typeof a);
 console.log(typeof b);
 console.log(typeof c);
 
-let name = (prompt('Your Name?'));
-let midlle = (prompt('Your Middle Name?'));
-let ag = (prompt('Your Age?'));
+let name = (prompt('Your Name?', 'Andriy'));
+let midlle = (prompt('Your Middle Name?', 'Igorovich'));
+let age = (prompt('Your Age?', '20'));
 
-let promptPerson = `${name} ${midlle} ${ag}`;
+let promptPerson = `${name} ${midlle} ${+age}`;
 console.log(promptPerson);
