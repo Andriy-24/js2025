@@ -314,43 +314,66 @@ let Array = [2,17,13,6,22,31,45,66,100,-18]
 //     console.log(Array[i])
 // }
 
-let snbArray = [1,6,'dsawd','dasdawd',true, false,252,252,'dada','dsawd',true, true, 'dwadsssw', 'sdwsdw',24,111, false, false]
+// let snbArray = [1,6,'dsawd','dasdawd',true, false,252,252,'dada','dsawd',true, true, 'dwadsssw', 'sdwsdw',24,111, false, false]
 // - Створити масив з 10 елементів числового, стрічкового і булевого типу. За допомогою if та typeof вивести тільки булеві елементи
 
-for (const item of snbArray) {
-    if (typeof item === "boolean") {
-        console.log(item)
-    }
-}
+// for (const item of snbArray) {
+//     if (typeof item === "boolean") {
+//         console.log(item)
+//     }
+// }
 
 // - Створити масив з 10 елементів числового, стрічкового і булевого типу. За допомогою if та typeof вивести тільки числові елементи
 
-for (const item of snbArray) {
-    if (typeof item === "number") {
-        console.log(item)
-    }
-}
+// for (const item of snbArray) {
+//     if (typeof item === "number") {
+//         console.log(item)
+//     }
+// }
 
 // - Створити масив з 10 елементів числового, стрічкового і булевого типу. За допомогою if та typeof вивести тільки рядкові елементи
 
-for (const item of snbArray) {
-    if (typeof item === "string") {
-        console.log(item)
-    }
-}
+// for (const item of snbArray) {
+//     if (typeof item === "string") {
+//         console.log(item)
+//     }
+// }
 
-// - Створити порожній масив. Наповнити його 10 елементами (різними за типами) через звернення до конкретних індексів. Вивести в консоль всі його елементи в циклі.
 // - Створити цикл for на 10 ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
+
+// for (let i = 0; i < 10; i++) {
+//     document.write(`<h3>${i}</h3>`)
+//     console.log(i);
+// }
+
 // - Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
+
+// for (let i = 0; i < 100; i++) {
+//     document.write(`<h3>${i}</h3>`)
+//     console.log(i);
+// }
+
 // - Створити цикл for на 100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log та document.write
+
+// for (let i = 0; i < 100; i=i+2) {
+//     document.write(`<h3>${i}</h3>`)
+//     console.log(i);
+// }
+
 // - Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
+
+// for (let i = 0; i < 100; i++) {
+//     if (i %2 === 0) {
+//         document.write(`<h3>${i}</h3>`);
+//         console.log(i)
+//     }
+// }
+
 // - Створити цикл for на 100 ітерацій. Вивести тільки непарні кроки. через console.log + document.write
-//
-//
-//
-// створити масив книжок (назва, кількість сторінок, автори, жанри).
-// -знайти найбільшу книжку.
-// - знайти книжку/ки з найбільшою кількістю жанрів
-// - знайти книжку/ки з найдовшою назвою
-// - знайти книжку/ки які писали 2 автори
-// - знайти книжку/ки які писав 1 автор
+
+// for (let i = 0; i < 100; i++) {
+//     if (i %2 !== 0) {
+//         document.write(`<h3>${i}</h3>`);
+//         console.log(i);
+//     }
+// }
